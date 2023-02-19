@@ -1,12 +1,24 @@
 // ConsoleApplication1.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#include <iostream>
+#include "header.h"
 
-int main()
+
+int main(void)
 {
-    std::cout << "This is some new stuff!\n";
+	int first_choice = 0;
+
+	printf("Welcome user");
+
+	g_p();
+
+	//first_choice = menu();
+
+	//second_choice = menu2(first_choice);
+
 }
+
+
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
